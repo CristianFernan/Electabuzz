@@ -1,0 +1,543 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#Contenedor {
+	max-width: 1300px;
+	height: auto;
+	margin: 2px auto;
+	padding: 1px;
+	border: 2px solid white;
+	border-radius: 15px;
+	font-family: verdana, sans-serif;
+	box-sizing: border-box;
+
+}
+
+ header {
+	width: 100%;
+	height: auto;
+	margin: 3px auto;
+	padding: 1px;
+	border: 2px solid black;
+	background: rgba(0,119,230,1);
+	background: -moz-linear-gradient(top, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,119,230,1)), color-stop(100%, rgba(0,90,194,1)));
+	background: -webkit-linear-gradient(top, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0077e6', endColorstr='#005ac2', GradientType=0 );
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	aling-items:center;
+}
+
+.logo  img {
+	width: 200px;
+	height: 100px;
+	border: 2px solid black;
+}
+.logo2  img {
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	}
+
+.tituloHead p{
+	text-decoration: : none;
+	color: black;
+	text-align: center;
+	font-family:  Verdana;
+	font-size: 150%;
+}
+footer{
+	width: 100%;
+	height: auto;
+	margin: 3px auto;
+	padding: 1px;
+	border: 2px solid black;
+	background: rgba(0,119,230,1);
+	background: -moz-linear-gradient(top, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,119,230,1)), color-stop(100%, rgba(0,90,194,1)));
+	background: -webkit-linear-gradient(top, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,119,230,1) 0%, rgba(0,90,194,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0077e6', endColorstr='#005ac2', GradientType=0 );
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	aling-items:center;
+}
+footer img {
+	width: 5%;
+	height: 65%;
+	border: 2px solid black;
+	margin-top: 20px;	
+	border-radius: 10px;
+
+}
+footer a{
+	font-size: 120%;
+	color: black;
+	padding: 10px;
+
+}
+footer a:hover{
+	font-size: 120%;
+	color: white;
+	padding: 10px;	
+}
+footer p{
+	color: black;
+	margin: 5px;
+	padding: 2px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#Principal{
+	width: 98%;
+	height: auto;
+	padding: 10px;
+
+
+}
+#Principal nav {
+	width: 27%;
+	height: 220px;
+	margin: 3px auto;
+	padding: 1px;
+	border: 2px solid black;
+	background-color: #00ffff;
+	display: flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	justify-content:space-around;
+	float: left;
+}
+
+nav a{
+	background-color: blue;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: 200%;
+	color: black;
+	margin: 5px;
+	padding: 2px;
+	text-align: center;
+}
+nav a:hover{
+	font-size: 200%;
+	color: green;
+	margin: 5px;
+	padding: 2px;
+	text-align: center;
+}
+aside{
+	width: 27%;
+	height: 25%;
+	margin: 2px;
+	margin-top: 20px;
+	padding:2px;
+	background-color: #00FFFF;
+	border: 1px solid black;
+	float: left;
+	}
+
+aside img{
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 100%;
+	height: 100%;
+}
+
+aside h5{
+	text-align: center;
+}
+
+section{
+	float: right;
+	height: auto;
+	width: 70%;
+}
+
+section .TituloSec h3{
+	text-align: center;
+	color: blue;
+	font-size: 200%;
+}
+
+section .SectionContenido{
+	width: 100%;
+}
+
+section .SectionContenido img{
+	width: 5%;
+	height: 5%;
+}
+
+section .SectionContenido a{
+	width: 15%;
+	height: 20%;
+	border: 2px solid black;
+	background-color: blue;
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+
+}
+
+section .downContent img{
+	width: 15%;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 10px; 
+}
+
+section .title{
+	font-family: Verdana;
+	font-size: 150%;
+
+}
+
+
+section .downContent{
+	display: flex;
+	flex-direction: row;
+
+}
+
+section .downContent h3{
+	position: relative;
+	top: 30px;
+}
+
+section .downContent .Escribanos a{
+	width: 15%;
+	height: 20%;
+	border: 2px solid black;
+	background-color: blue;
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+	position: relative;
+	bottom: 35px;
+}
+section .SectionContenido{
+	display: flex;
+	flex-direction:row;
+}
+section  .SectionContenido .PrimerArticle {
+	flex-direction:column;
+
+}
+section .SectionContenido .SegundoArticle{
+	flex-direction:column;
+}
+section  .SectionContenido .PrimerArticle .title {
+	margin-bottom: 15px;
+}
+section  .SectionContenido .SegundoArticle .title {
+	margin-bottom: 15px;
+}
+
+section  .SectionContenido .PrimerArticle .Contactanos{
+	margin-bottom: 60px;
+}
+section  .SectionContenido .SegundoArticle .Contactanos{
+	margin-bottom: 60px;
+}
+@media screen and (max-width: 576px){
+	header{
+		flex-direction:column;
+		align-items:center;
+		padding: 5px;
+
+	}
+	#Principal nav{
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+		align-items:center;
+	}
+	nav a{
+		width: 98%
+	}
+
+	footer{
+		flex-direction:column;
+		align-items:center;
+	}
+	
+	footer .siguenos img{
+		width: 30px;
+		height: 30px;
+	}
+
+	footer img{
+		width: 150px;
+		height: 100px;
+	}
+
+	aside{
+		position: relative;
+		left: 125px;
+		bottom: 5px;
+		height: 100px;
+		width: 200px;
+	}
+	section{
+		width: 100%;
+
+	}
+	section .SectionContenido{
+	display: flex;
+	flex-direction:column;
+	}
+	section .downContent{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	}
+	section .downContent h3{
+	text-align: center;
+	margin-bottom: 30px;
+	position: relative;
+	top: 0px;
+	}
+	section .downContent .Escribanos{
+		display: flex;
+		flex-direction:column;
+		justify-content: space-between;
+	}
+	section .downContent img{
+		width: 30%;
+		height: 20%;
+		position: relative;
+		left: 150px;
+		margin-bottom: 100px;
+	}
+	section .downContent .Escribanos a{
+		position: relative;
+		left: 105px;
+	
+		border: none;
+		background-color: white;
+	}
+
+}
+@media screen and (max-width: 577px){
+	header{
+		flex-direction:column;
+		align-items:center;
+		padding: 5px;
+
+	}
+	#Principal nav{
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+		align-items:center;
+	}
+	nav a{
+		width: 98%
+	}
+
+	footer{
+		flex-direction:column;
+		align-items:center;
+	}
+	
+	footer .siguenos img{
+		width: 30px;
+		height: 30px;
+	}
+
+	footer img{
+		width: 150px;
+		height: 100px;
+	}
+
+	aside{
+		position: relative;
+		left: 125px;
+		bottom: 5px;
+		height: 100px;
+		width: 200px;
+	}
+	section{
+		width: 100%;
+
+	}
+	section .SectionContenido{
+	display: flex;
+	flex-direction:column;
+	}
+	section .downContent{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	}
+	section .downContent h3{
+	text-align: center;
+	margin-bottom: 30px;
+	position: relative;
+	top: 0px;
+	}
+	section .downContent .Escribanos{
+		display: flex;
+		flex-direction:column;
+		justify-content: space-between;
+	}
+	section .downContent img{
+		width: 30%;
+		height: 20%;
+		position: relative;
+		left: 150px;
+		margin-bottom: 100px;
+	}
+	section .downContent .Escribanos a{
+		position: relative;
+		left: 105px;
+	
+		border: none;
+		background-color: white;
+	}
+
+}
+@media (min-width: 578px) and (max-width: 768px){
+	header{
+		flex-direction:column;
+		align-items:center;
+		padding: 5px;
+
+	}
+	#Principal nav{
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+		align-items:center;
+	}
+	nav a{
+		width: 98%
+	}
+
+	footer{
+		flex-direction:column;
+		align-items:center;
+	}
+	
+	footer .siguenos img{
+		width: 70px;
+		height: 70px;
+	}
+	footer img{
+		width: 150px;
+		height: 100px;
+	}
+
+	aside{
+		position: relative;
+		left: 160px;
+		bottom: 5px;
+		height: 175px;
+		width: 50%;
+	}
+	aside img{
+		width: 100%;
+		height: 150px;
+	}
+	section{
+		width: 100%;
+
+	}
+	section .SectionContenido{
+	display: flex;
+	flex-direction:column;
+	margin-left: 50px;
+	}
+	section .downContent{
+	display: flex;
+	flex-direction: column;
+
+	}
+	section .downContent h3{
+	text-align: center;
+	margin-bottom: 30px;
+	position: relative;
+	top: 0px;
+	}
+	section .downContent .Escribanos{
+		display: flex;
+		flex-direction:column;
+		justify-content: space-between;
+	}
+	section .downContent img{
+		width: 15%;
+		height: 5%;
+		position: relative;
+		left: 260px;
+		margin-bottom: 50px;
+	}
+	section .downContent .Escribanos a{
+		position: relative;
+		left: 210px;
+	
+		border: none;
+		background-color: white;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+	section .downContent .Escribanos{
+		display: flex;
+		flex-direction:column;
+		justify-content: space-between;
+	}
+	section .downContent img{
+		width: 30%;
+		height: 20%;
+		position: relative;
+		left: 100px;
+		margin-bottom: 50px;
+	}
+	section .downContent .Escribanos a{
+		position: relative;
+		left: 45px;
+	
+		border: none;
+		background-color: white;
+	}
+
+}
+@media (min-width: 993px) and (max-width: 1375px){
+		section .downContent .Escribanos{
+		display: flex;
+		flex-direction:column;
+		justify-content: space-between;
+	}
+	section .downContent img{
+		width: 30%;
+		height: 20%;
+		position: relative;
+		left: 100px;
+		margin-bottom: 50px;
+	}
+	section .downContent .Escribanos a{
+		position: relative;
+		left: 45px;
+	
+		border: none;
+		background-color: white;
+	}
+
+}
